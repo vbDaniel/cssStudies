@@ -6,11 +6,11 @@ CSS é um mecanismo que possibilita adcionar um estilo ao documento, pode esta d
 
 ## Syles Rules:
 
-                        |     **Selectors**    |
-                        | :------------------: | 
-                        |     body {...}.      |
-                        |     #menu{...}.      |
-                        |   .bookTitle{...}.   |  
+|     **Selectors**    |
+| :------------------: | 
+|     body {...}.      |
+|     #menu{...}.      |
+|   .bookTitle{...}.   |
   
 Selector são as formas que se usar para comunicar com o browser oque desejamos estilizar, exite 
 ```bash    
