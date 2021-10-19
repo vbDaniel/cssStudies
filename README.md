@@ -49,6 +49,9 @@ Existem centenas de propertyname, que devem ser estudados, para buscar a melhor 
   - Helvetica, sans-serif
 - Notação de função:
   - rgb(r,g,b), url
+ 
+CSS -> Cascading Style Sheets
   
+Cascading: O efeito cascata consiste em setar prioridades, 
   
   
