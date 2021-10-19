@@ -8,11 +8,18 @@ CSS é um mecanismo que possibilita adcionar um estilo ao documento, pode esta d
 
 |     **Selectors**    |
 | :------------------: | 
-|     body {...}.      |  No local de body pode-se inserir qualquer elemento e o estilo sera aplicado a todos os elementos daquela categoria.
-|     #menu{...}.      |
-|   .bookTitle{...}.   |
+|  1   body {...}.     |  
+|  2   #menu{...}.     |
+|  3 .bookTitle{...}.  |
   
-Selector são as formas que se usar para comunicar com o browser oque desejamos estilizar, exite 
+ 
+Selector são as formas que se usar para comunicar com o browser oque desejamos estilizar.
+  
+  1. No local de body pode-se inserir qualquer elemento e o estilo sera aplicado a todos os elementos daquela categoria.
+  2. Encontrara um elemento com uma ID fornecida
+  3. Vai editar todos os elementos que estão dentro da classe informada
+  
+------------------------------------------  
 ```bash    
 **propertyname:value => backgound-color:#cccc99
 ```  
