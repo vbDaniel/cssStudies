@@ -33,5 +33,22 @@ Selector são as formas que se usar para comunicar com o browser oque desejamos 
 Existem centenas de propertyname, que devem ser estudados, para buscar a melhor opção para uso em seu website.
  
   
+## Specifying CSS Property Values:
+
+- Keywords
+  - thin, thick, larger
+- Medidas:
+  - incher(in), points(pt), picas(pc)
+- Medidas de tela:
+  - pixels(px)
+- Medidas relativas:
+  - %, em
+- Codigo de cores:
+  - #rrggbb, rgb(r,g,b)
+- Fonts:
+  - Helvetica, sans-serif
+- Notação de função:
+  - rgb(r,g,b), url
+  
   
   
