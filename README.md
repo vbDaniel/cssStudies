@@ -8,7 +8,7 @@ CSS é um mecanismo que possibilita adcionar um estilo ao documento, pode esta d
 
 |     **Selectors**    |
 | :------------------: | 
-|     body {...}.      | // No local de body pode-se inserir qualquer elemento e o estilo sera aplicado a todos os elementos daquela categoria.
+|     body {...}.      | / No local de body pode-se inserir qualquer elemento e o estilo sera aplicado a todos os elementos daquela categoria.
 |     #menu{...}.      |
 |   .bookTitle{...}.   |
   
