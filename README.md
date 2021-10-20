@@ -27,8 +27,8 @@ Selector são as formas que se usar para comunicar com o browser oque desejamos 
   - Psuedo Class: a : visited {...}, sempre que o link é visitado algo é editado.
   
 ------------------------------------------  
-```bash    
-**propertyname:value => backgound-color:#cccc99
+```CSS   
+** propertyname:value => backgound-color:#cccc99
 ```  
 Existem centenas de propertyname, que devem ser estudados, para buscar a melhor opção para uso em seu website.
  
@@ -54,7 +54,7 @@ CSS -> Cascading Style Sheets
   
 Cascading: O efeito cascata consi ste em setar prioridades, no caso css setar um pesso para cada regra de estilo, e o com maior peso terá prioridade, por exemplo o estilos do usuário  tem prioridade emcima dos estilos default.
   
-  `!important`tem maior importância.
+  `!important` tem maior importância.
    
 - **Regras conflitantes** vindos de uma mesma fonte 
 são resolvidos de uma forma simples onde o browser usa a ultima regra listada. Da mesma forma as importações e referências com conteúdo  conflitados o ultimo tem prioridade.
@@ -81,8 +81,10 @@ Specificity = 100 -> 1(A)0(B)0(C)
 Inheritance (Herança) é data por uma árvore, em codigo CSS é dado por `div > p`, nesse caso p é filho de div, assim ao aplicar qualquer estilo em `div > p{...}` o `p {...}` sera diferente de apenas um p. Esse modelo pode ser trabalhado com outros elementos. 
   
   - Para acessar uma certa filha de um elemento: elemento :nth-child(3){...} 
-  ex: ul li:nth-child(3)
- 
+  ex: 
+ ```CSS 
+  ul li:nth-child(3){...}
+ ```
 ------------------------------------------ ## CSS-The box model
 
 Todo elemento tem como base um caixa, nem sempre se pode ver notar as caixas, porém elas estão  e deve-se organiza-las. 
@@ -98,7 +100,8 @@ A caixa é formada pelo conteúdo a parte mais interna, o Padding, o Border e a 
   
 ------------------------------------------ 
  
-Algumas ferramentas uteis de Styles
+# **Algumas ferramentas uteis de Styles**
+  
 ```CSS  
   .menu li:hover{
     Background-color: green
@@ -108,5 +111,50 @@ Algumas ferramentas uteis de Styles
   
 
  
+  
+  
+  
+  
+   
+------------------------------------------ 
+  
+## Styling Text:
+  
+  Font é algo que deve ser pensado, visto que nem todo equipamento utiliza certas fontes. Além que deve-se usar fontes que possa simplificar a leitura, uma fonte limpa.
+  
+  
+ ```CSS
+  body{
+       font-family: sans-serif
+  }
+  ```
+  Existe diversas fontes e deve-se escolher a que mais se adapta ao projeto. Porém para resolver o problema de um aparelho nao possuir algumas fonte:
+  
+ ``CSS
+  body{
+       font-family: Arial, Helvetica, sans-serif
+  }
+  ```
+O Browser irá  percorrer por Arial, Helvetica e Sans-serif a primeira fonte que ele possuir será a usada.
+  
+  - Sobre o tamanho a fonte, também  nos leva a uma escolha o tamanho Absolute(pixel - px) que não se altera ou Variável relativo(% ou 'em') que se altera de acordo com o tamanho da tela ou da linha.
+```CSS
+body{
+  font-family: Arial, Helvetica, sans-serif
+  font-size: 0.9em;
+  font-size: 20px;
+  font-size: 
+  font: italic 0.9em Arial;
+}
+```  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
