@@ -148,13 +148,36 @@ body{
   font: italic 0.9em Arial;
 }
 ```  
+
+------------------------------------------ 
+  
+# LAYOUT with CSS 
   
   
+  Por defalt um elemento é static ou seja ele criar um empilhamento de blocos, porém pode-se setar um elemento como Relative, assim ele consegue  se mover para alguma direção de acordo com a quantidade de pixel escolhida.
   
+  Outras formas de posicionamento  é o Absolute que move um elemento para uma posição  específica  em relação  ao documento. Fixed é uma que independentemente do usuário  scroll ou der zoom o elemento continua fixo na tela.
   
+  Exemplos de uso in code:
+```CSS 
+#buttons inpiut:last-child{
+  position: relative; //absolute or fixed
+  top: 100px;
+  left: 300px;
+}
+```
+  - Deve-se usar o position relative com cuidado pois pode sobrepor outros elementos, sempre tenha em mente se há espaço  ou não.
+
+## Floating and Cleanring
   
+```CSS  
+#figure{
+  float: left; // A figura é jogada para esquerda 
+  margin-right: 5px;
+}
   
-  
+<p style= "clear:both"> // Vai impedir o texto de ter algo nas laterais, pode ser usado no local de 'both' -> 'left' or 'right'
+```  
   
   
   
