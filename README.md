@@ -52,6 +52,39 @@ Existem centenas de propertyname, que devem ser estudados, para buscar a melhor 
  
 CSS -> Cascading Style Sheets
   
-Cascading: O efeito cascata consiste em setar prioridades, 
+Cascading: O efeito cascata consi ste em setar prioridades, no caso css setar um pesso para cada regra de estilo, e o com maior peso terá prioridade, por exemplo o estilos do usuário  tem prioridade emcima dos estilos default.
+  
+  `!important`tem maior importância.
+   
+- **Regras conflitantes** vindos de uma mesma fonte 
+são resolvidos de uma forma simples onde o browser usa a ultima regra listada. Da mesma forma as importações e referências com conteúdo  conflitados o ultimo tem prioridade.
+  
+------------------------------------------ 
+  
+- **CSS Reset** substitui o padrao fornecidos pelo browser, assim o programador sempre saber de onde começar suas regras sem depender  do padrão  que varia de cada browser, e começa definitivamente  do 0 com todas as regras.
+  
+------------------------------------------    
+  
+ - **Specificity** é o valor do peso, quanto mai s specificity mais importante é o estilo.
+  
+  | A | Count  of ID selectors.     |
+  | B | Count of class and attribute|
+  | C | Count of type selectors     |
+
+  if { A = 1 , B = 0, C = 0} 
+Specificity = 100 -> 1(A)0(B)0(C)
+
+  style aplicado diretamente dentro da tag é o mais especifico de todas as regras style. 
+  
+------------------------------------------    
+  
+Inheritance (Herança) é data por uma árvore, em codigo CSS é dado por `div > p`, nesse caso p é filho de div, assim ao aplicar qualquer estilo em `div > p{...}` o `p {...}` sera diferente de apenas um p. Esse modelo pode ser trabalhado com outros elementos. 
+  
+  
+  
+  
+  
+
+ 
   
   
