@@ -1,4 +1,4 @@
-# CSS Studies
+# CSS Studies Plural Sight Curses 
 
 
 ## O que é CSS?
