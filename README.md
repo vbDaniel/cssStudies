@@ -80,9 +80,31 @@ Specificity = 100 -> 1(A)0(B)0(C)
   
 Inheritance (Herança) é data por uma árvore, em codigo CSS é dado por `div > p`, nesse caso p é filho de div, assim ao aplicar qualquer estilo em `div > p{...}` o `p {...}` sera diferente de apenas um p. Esse modelo pode ser trabalhado com outros elementos. 
   
+  - Para acessar uma certa filha de um elemento: elemento :nth-child(3){...} 
+  ex: ul li:nth-child(3)
+ 
+------------------------------------------ ## CSS-The box model
+
+Todo elemento tem como base um caixa, nem sempre se pode ver notar as caixas, porém elas estão  e deve-se organiza-las. 
+  
+A caixa é formada pelo conteúdo a parte mais interna, o Padding, o Border e a Margin.
   
   
+### Display and Visibility:
   
+   - Display é o geral, ou seja quando se diz `display: none;` em alguma tag, ira retirar tudo desde o elemento ao bloco. 
+   - Visibility apenas ira esconder o elemento, ou seja o bloco continua lá mantendo seu espaço intacto.
+  
+  
+------------------------------------------ 
+ 
+Algumas ferramentas uteis de Styles
+```CSS  
+  .menu li:hover{
+    Background-color: green
+  }
+```  
+  ->  Sempre que o usuário  passa com o cursor sobre o bloco o bloco trocara o fundo pra verde.
   
 
  
