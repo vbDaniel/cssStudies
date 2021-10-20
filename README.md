@@ -123,21 +123,22 @@ A caixa é formada pelo conteúdo a parte mais interna, o Padding, o Border e a 
   Font é algo que deve ser pensado, visto que nem todo equipamento utiliza certas fontes. Além que deve-se usar fontes que possa simplificar a leitura, uma fonte limpa.
   
   
- ```CSS
-  body{
-       font-family: sans-serif
-  }
-  ```
+```CSS
+body{
+     font-family: sans-serif
+}
+```
   Existe diversas fontes e deve-se escolher a que mais se adapta ao projeto. Porém para resolver o problema de um aparelho nao possuir algumas fonte:
   
- ``CSS
-  body{
-       font-family: Arial, Helvetica, sans-serif
-  }
-  ```
+```CSS
+body{
+     font-family: Arial, Helvetica, sans-serif
+}
+```
 O Browser irá  percorrer por Arial, Helvetica e Sans-serif a primeira fonte que ele possuir será a usada.
   
   - Sobre o tamanho a fonte, também  nos leva a uma escolha o tamanho Absolute(pixel - px) que não se altera ou Variável relativo(% ou 'em') que se altera de acordo com o tamanho da tela ou da linha.
+  
 ```CSS
 body{
   font-family: Arial, Helvetica, sans-serif
