@@ -86,7 +86,9 @@ Inheritance (Herança) é data por uma árvore, em codigo CSS é dado por `div >
   ul li:nth-child(3){...}
  ```
 ------------------------------------------ ## CSS-The box model
-
+  
+**DICA** = usa Background-color pra visualizar  as boxs
+  
 Todo elemento tem como base um caixa, nem sempre se pode ver notar as caixas, porém elas estão  e deve-se organiza-las. 
   
 A caixa é formada pelo conteúdo a parte mais interna, o Padding, o Border e a Margin.
