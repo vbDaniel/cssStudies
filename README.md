@@ -1,4 +1,4 @@
-# CSS Studies Plural Sight Curses 
+# CSS Studies Plural Sight Curses and Guanabara
 
 
 ## O que é CSS?
@@ -192,6 +192,40 @@ Permite que o elemento se mova para esquerda ou para a direita e que outro conte
   
 <p style= "clear:both"> // Vai impedir o texto de ter algo nas laterais, pode ser usado no local de 'both' -> 'left' or 'right'
 ```  
+---------------------------------------------------   
+ # GUANABARA  
+
+ ## Conceitos de Cores e suas importâncias:
+---------------------------------------------------
+  
+  As cores influenciam também o nosso humor. O amarelo, por exemplo, desperta alegria, otimismo. Já a cor cinza, quando em excesso, pode causar um efeito contrário, gerando um estado deprimido. Mas não  necessariamente  me proibe utilizar as cores, apenas é necessário  tomar cuidado com o uso. Pois um site harmonico sobre as cores e organização do mesmo, ganham de outros site que não levam isso em consideração. 
+  Importância por exemplo o azul tem a a maior taxa de aprovação  e a menor de rejeição. Segue outros  exemplos:
+  
+  ![image](https://user-images.githubusercontent.com/87997848/142464927-cf0f137e-e099-4cdd-927e-693e55705b72.png)
+
+  O constraste de letras de fundo, pode causar alto índice  de cansaço, exemplo de fundo preto com letras brancos. 
+  
+  ## Cores representadas no CSS:
+  ---------------------------------------------------
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
