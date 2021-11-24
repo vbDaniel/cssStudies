@@ -207,14 +207,39 @@ Permite que o elemento se mova para esquerda ou para a direita e que outro conte
   
   ## Cores representadas no CSS:
   ---------------------------------------------------
+ É possível   representar as cores de 4 formas diferente, como:
+  - o nome das cores, porém  é limitado(ex: []blue};
+  - Hexadecimal (ex: #0000ff);
+  - RGB (ex: rgb(0,0,25);
+  - HSL (ex: hsl(240,100%,50%));
+ ** Todos é possível  inserir a transparência  no final de todos.**  
+ 
+  
+  ## Cores e suas hamonias:
+  ---------------------------------------------------
+  Cores primárias:
+  
+  ![Screen Shot 2021-11-24 at 10 38 40](https://user-images.githubusercontent.com/87997848/143248793-b1391537-7449-457c-a310-a1a73fa69d37.png)
+
+  
+  Cores secundárias:
+  
+  ![Screen Shot 2021-11-24 at 10 40 51](https://user-images.githubusercontent.com/87997848/143249149-efaf28f3-950a-4cdb-b30e-92cf01261263.png)
+
+  Atençao ao fazer um site, uma paleta tem que ser focada entre 3 à 5 cores, sem contar o preto e branco que já consta. Uma ferramenta interessante de se fazer uma peleta é o Adobe Colorque se criar uma paleta apartir de um circulo cromático. Outra ferramenta é o Paletton que trabalha de forma parecida, pórem podesse aplicar a paleta com testes em sites, e modelos pre-prontos(Pag-Layout). 
   
   
+  ## Tipografia 
+  ---------------------------------------------------
+  TipoGrafia é um tipo de estudo de como escrever de forma mais inteligente  para passar mais sensações  ou apenas facilitar a leitura, hoje esse estudo é muito importante para a criação  dos sites. 
   
+  A anatomia de uma fonte é de suma importância, visto que a o tamanho de uma fonte é dada pelo tamanho do corpo da fonte, que é: 
   
+  ![Screen Shot 2021-11-24 at 12 22 03](https://user-images.githubusercontent.com/87997848/143266078-cbf04da8-cbad-43b7-b7b7-8561c91c920f.png)
+
+  Fique esperto com a família  das fontes visto que nem todos os browers possuem as todas fontes, então montar um família é importante  visto que caso não  há uma certa fonte o browser busca outras dentro da família. Também  é possível  usa uma genérica  para um caso de não existir  nenhuma ele buscara por exemplo "serif", buscará qualquer fonte com serif.
   
-  
-  
-  
+
   
   
   
