@@ -238,11 +238,20 @@ Permite que o elemento se mova para esquerda ou para a direita e que outro conte
   ![Screen Shot 2021-11-24 at 12 22 03](https://user-images.githubusercontent.com/87997848/143266078-cbf04da8-cbad-43b7-b7b7-8561c91c920f.png)
 
   Fique esperto com a família  das fontes visto que nem todos os browers possuem as todas fontes, então montar um família é importante  visto que caso não  há uma certa fonte o browser busca outras dentro da família. Também  é possível  usa uma genérica  para um caso de não existir  nenhuma ele buscara por exemplo "serif", buscará qualquer fonte com serif.
+   
   
+  ## CSS
+  ---------------------------------------------------
 
+ ID(#) deve ser único, pode se ter varios id com nomes diferentes, porém quando se trata de um mesmo nome pra multiplas "ID" deve-se usar CLASS(.). Apesar de funcionar é um erro pois há regras a seguir de padrão.
+  PseudoClass(:) estão  realacionada ao estado de um determinado elemento. Por exemplo quando se usa:
   
-  
-  
+ ```CSS 
+   div:hover{
+  background-color: blue; 
+  }
+ ```
+  Esse estado hover é quando o cursor do mouse passa pelo elemento essa classe será ativada ou seja o background  color ficará azul.
   
   
   
